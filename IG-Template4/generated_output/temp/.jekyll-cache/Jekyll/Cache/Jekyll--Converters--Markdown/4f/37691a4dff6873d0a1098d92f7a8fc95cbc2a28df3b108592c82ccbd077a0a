@@ -1,0 +1,23 @@
+I"ˆ<h3 id="resource-profiles">Resource Profiles</h3>
+
+<p>The following Profiles for FHIR <em>resources</em> have been defined for this implementation guide.</p>
+
+<li><a href="StructureDefinition-fish-patient.html">Fish Patient</a> A patient at **Aquatic** Veterinary Services.</li>
+<li><a href="StructureDefinition-veterinarian.html">Veterinarian</a> A profile on the Practitioner resource for veterinarians. In the US, vets do not have National Provider Numbers.</li>
+
+<p><br /></p>
+
+<h3 id="datatype-profiles">Datatype Profiles</h3>
+
+<p>The following Profiles for FHIR <em>datatypes</em> have been defined for this implementation guide.</p>
+
+<p><br /></p>
+
+<h3 id="extensions">Extensions</h3>
+
+<p>These extensions have been defined for this implementation guide.</p>
+
+<li><a href="StructureDefinition-fish-species.html">Fish Species</a> The species name of a *piscine* (fish) patient.</li>
+
+<p><br /></p>
+:ET

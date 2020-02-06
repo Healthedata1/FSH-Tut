@@ -1,0 +1,67 @@
+{
+  "resourceType": "Patient",
+  "id": "FishPatient1",
+  "meta": {
+    "profile": [
+      "http://example.org/fhir/fish/StructureDefinition/fish-patient"
+    ]
+  },
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: FishPatient1</p><p><b>meta</b>: </p><p><b>active</b>: true</p><p><b>name</b>: Goldy </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2020-01-01</p><p><b>deceased</b>: false</p></div>"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "species",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "SCT",
+                "code": "90580008"
+              }
+            ],
+            "text": "Fish"
+          }
+        },
+        {
+          "url": "breed",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "SCT",
+                "code": "12978006"
+              }
+            ],
+            "text": "Goldfish"
+          }
+        },
+        {
+          "url": "genderStatus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/animal-genderstatus",
+                "code": "unknown"
+              }
+            ],
+            "text": "Unknown"
+          }
+        }
+      ],
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-animal"
+    }
+  ],
+  "active": true,
+  "name": [
+    {
+      "given": [
+        "Goldy"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "2020",
+  "deceasedBoolean": false
+}

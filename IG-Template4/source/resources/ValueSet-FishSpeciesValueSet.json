@@ -1,0 +1,24 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "FishSpeciesValueSet",
+  "id": "FishSpeciesValueSet",
+  "title": "Fish Species Value Set",
+  "description": "Codes describing various species of fish from SNOMED-CT.",
+  "version": "0.1.0",
+  "url": "http://example.org/fhir/fish/ValueSet/FishSpeciesValueSet",
+  "compose": {
+    "include": [
+      {
+        "system": "SCT",
+        "filter": [
+          {
+            "property": "code",
+            "op": "is-a",
+            "value": "90580008"
+          }
+        ]
+      }
+    ]
+  }
+}

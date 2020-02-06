@@ -1,0 +1,37 @@
+- title: Home
+  url: index.html
+# nested menu item
+- title: General Guidance
+  url: "#" # no page for this grouper header
+  sublinks:
+    - title: Some Guidance in Markdown
+      url: guidance.html
+    - title: Some Guidance in html
+      url: more-guidance.html
+- title: FHIR Artifacts
+  url: "#" # no page for this grouper header
+  sublinks:
+    - title: Profiles and Extensions
+      url: profiles.html
+    #- title: Extensions
+      #url: extensions.html
+    #- title: Logical Models
+      #url: profiles.html
+    #- title: StructureMaps
+      #url: structuremaps.html
+    - title: Search Parameters
+      url: searchparameters.html
+    - title: Operations
+      url: operations.html
+    - title: Terminology
+      url: terminology.html
+    - title: Search Parameters
+      url: searchparameters.html
+    - title: CapabilityStatements
+      url: capstatements.html
+- title: Security
+  url: security.html
+- title: Examples
+  url: all-examples.html
+- title: Downloads
+  url: downloads.html

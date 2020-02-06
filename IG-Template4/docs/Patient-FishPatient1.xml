@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="FishPatient1"/>
+  <meta>
+    <profile value="http://example.org/fhir/fish/StructureDefinition/fish-patient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: FishPatient1</p><p><b>meta</b>: </p><p><b>active</b>: true</p><p><b>name</b>: Goldy </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 2020-01-01</p><p><b>deceased</b>: false</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/patient-animal">
+    <extension url="species">
+      <valueCodeableConcept>
+        <coding>
+          <system value="SCT"/>
+          <code value="90580008"/>
+        </coding>
+        <text value="Fish"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="breed">
+      <valueCodeableConcept>
+        <coding>
+          <system value="SCT"/>
+          <code value="12978006"/>
+        </coding>
+        <text value="Goldfish"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="genderStatus">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/animal-genderstatus"/>
+          <code value="unknown"/>
+        </coding>
+        <text value="Unknown"/>
+      </valueCodeableConcept>
+    </extension>
+  </extension>
+  <active value="true"/>
+  <name>
+    <given value="Goldy"/>
+  </name>
+  <gender value="female"/>
+  <birthDate value="2020"/>
+  <deceasedBoolean value="false"/>
+</Patient>

@@ -1,0 +1,24 @@
+{
+  "name": "healthedatainc.ig-template4",
+  "version": "0.0.0",
+  "tools-version": 3,
+  "type": "fhir.ig",
+  "date": "20200203115330",
+  "license": "CC0-1.0",
+  "canonical": "http://www.fhir.org/guides/test4",
+  "url": "file:///Users/client/Documents/FSH/IG-Template4/docs",
+  "title": "IG Test4",
+  "fhirVersions": [
+    "4.0.1"
+  ],
+  "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0",
+    "hl7.fhir.us.qicore": "current"
+  },
+  "author": "Health eData Inc",
+  "directories": {
+    "lib": "package",
+    "example": "example"
+  }
+}

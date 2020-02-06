@@ -1,0 +1,63 @@
+{
+  "resourceType": "Patient",
+  "id": "FishPatient1",
+  "meta": {
+    "profile": [
+      "http://example.org/fhir/fish/StructureDefinition/fish-patient"
+    ]
+  },
+  "name": [
+    {
+      "given": [
+        "Goldy"
+      ]
+    }
+  ],
+  "birthDate": "2020",
+  "gender": "female",
+  "deceasedBoolean": false,
+  "active": true,
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/patient-animal",
+      "extension": [
+        {
+          "url": "species",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "90580008",
+                "system": "SCT"
+              }
+            ],
+            "text": "Fish"
+          }
+        },
+        {
+          "url": "breed",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "12978006",
+                "system": "SCT"
+              }
+            ],
+            "text": "Goldfish"
+          }
+        },
+        {
+          "url": "genderStatus",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "unknown",
+                "system": "http://hl7.org/fhir/animal-genderstatus"
+              }
+            ],
+            "text": "Unknown"
+          }
+        }
+      ]
+    }
+  ]
+}

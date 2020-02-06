@@ -1,0 +1,53 @@
+{
+  "index-version": 1,
+  "files": [
+    {
+      "filename": "ig-r4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "healthedatainc.ig-template4",
+      "url": "http://www.fhir.org/guides/test4/ImplementationGuide/healthedatainc.ig-template4",
+      "version": "0.0.0"
+    },
+    {
+      "filename": "ImplementationGuide-healthedatainc.ig-template4.json",
+      "resourceType": "ImplementationGuide",
+      "id": "healthedatainc.ig-template4",
+      "url": "http://www.fhir.org/guides/test4/ImplementationGuide/healthedatainc.ig-template4",
+      "version": "0.0.0"
+    },
+    {
+      "filename": "StructureDefinition-fish-species.json",
+      "resourceType": "StructureDefinition",
+      "id": "fish-species",
+      "url": "http://example.org/fhir/fish/StructureDefinition/fish-species",
+      "version": "0.1.0",
+      "kind": "complex-type",
+      "type": "Extension"
+    },
+    {
+      "filename": "StructureDefinition-veterinarian.json",
+      "resourceType": "StructureDefinition",
+      "id": "veterinarian",
+      "url": "http://example.org/fhir/fish/StructureDefinition/veterinarian",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Practitioner"
+    },
+    {
+      "filename": "StructureDefinition-fish-patient.json",
+      "resourceType": "StructureDefinition",
+      "id": "fish-patient",
+      "url": "http://example.org/fhir/fish/StructureDefinition/fish-patient",
+      "version": "0.1.0",
+      "kind": "resource",
+      "type": "Patient"
+    },
+    {
+      "filename": "ValueSet-FishSpeciesValueSet.json",
+      "resourceType": "ValueSet",
+      "id": "FishSpeciesValueSet",
+      "url": "http://example.org/fhir/fish/ValueSet/FishSpeciesValueSet",
+      "version": "0.1.0"
+    }
+  ]
+}

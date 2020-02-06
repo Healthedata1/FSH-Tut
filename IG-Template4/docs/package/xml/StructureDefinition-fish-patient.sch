@@ -1,0 +1,1 @@
+/Users/client/Documents/FSH/IG-Template4/generated_output/temp/StructureDefinition-fish-patient.sch
